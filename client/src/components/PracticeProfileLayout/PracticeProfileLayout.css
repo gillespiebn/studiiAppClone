@@ -1,0 +1,197 @@
+.ui.small.image.cardImage {
+    height: 200px;
+    width: 200px;
+    border: solid 3px #22223B;
+    border-radius: 50px;
+    position: absolute;
+    top:-225px;
+    margin-left: 42%;
+}
+.ui.card{
+  box-shadow: transparent;
+}
+
+.ui.fluid.card.cardContainer {
+    width: 75%;
+    margin: auto;
+    height:500px;
+    margin-bottom: 25px;
+    background: #22223B;
+
+}
+.imgDiv {
+    background-color: #F4AE9F;
+    min-height: 175px;
+    position: relative;
+}
+.profileName {
+    color:#F4AE9F;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: .8em;
+}
+.profileDiv {
+    position: relative;
+    top: 60px;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    background-color:  #22223B;
+    color: #E4E3E5; 
+    text-align: center;
+    height:150px;
+    border: #22223B;
+}
+.prfDiv {
+    background-color: #E4E3E5;
+    position: relative;
+    top: 100px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color:  #22223B; 
+    text-align: center;
+    border: #22223B;
+}
+#methods{
+    margin-left: 26%;
+    margin-right: 20%;
+}
+#locations{
+    margin-left: 26%;
+    margin-right: 20%;
+
+}
+h1, h2, h3 {
+    font-family: 'Nunito', sans-serif;
+
+}
+h3 {
+    font-weight: bold;
+}
+
+h4 {
+  font-family: 'Nunito', sans-serif;
+}
+.ui.button {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px; 
+    font-weight: bold; 
+    letter-spacing: 1px;
+    align-content: center;
+    padding: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+}
+.calendar{
+    margin-left: 15%;
+}
+.equal.width.fields.timebtnMo {
+    margin-top: 1%;
+    margin-left: 5%;
+  
+  }
+  .equal.width.fields.timebtnAf {
+    margin-top: 1%;
+    margin-left: 5%;
+  
+  }
+  .equal.width.fields.timebtnEv {
+    margin-top: 1%;
+    margin-left: 5%;
+  
+  }
+  .equal.width.fields.timebtnNi {
+    margin-top: 1%;
+    margin-left: 5%;
+  
+  }
+.Morning {
+ height: 124px;
+ width: 75px;
+}
+
+.Afternoon {
+  margin-top: -63px;
+  height: 142px;
+  width: 75px;
+}
+
+.Evening{
+  margin-top: -65px;
+  height: 142px;
+  width: 75px;
+}
+
+.Night {
+  margin-top: -65px;
+  height: 124px;
+  width: 75px;
+}
+.dayTitles {
+    width: 75px;
+    color: #22223B;
+    font-family: 'Nunito', sans-serif;
+    font-size:20px;
+    text-align: center;
+    font-weight: bolder;
+  } 
+  .timeFrameLabels {
+    width: 80px;
+    color: #22223B;
+    font-family: 'Nunito', sans-serif;
+    font-size:20px;
+  }
+  
+  .morLabel{
+    margin-top: 50px;
+    margin-left: -17px;
+  }
+  
+  .aftLabel {
+    margin-top: 20px;
+    margin-right: 7px;
+    margin-left: -24px;
+  }
+  
+  .eveLabel {
+    margin-top: 20px;
+    margin-left: -17px;
+  }
+  
+  .niLabel {
+    margin-top: 15px;
+    margin-left: -17px;
+  }
+  .dayTitles {
+    width: 75px;
+    color: #22223B;
+    font-family: 'Nunito', sans-serif;
+    font-size:20px;
+    text-align: center;
+    font-weight: bolder;
+  }
+.su {
+    margin-left: -13px;
+  }
+  
+  .m {
+    margin-left: 13px;
+  }
+  .tu {
+    margin-left: 9px;
+  } 
+  .w {
+    margin-left: 13px;
+  }
+  
+  .th {
+    margin-left: 9px;
+  }
+  .f {
+    margin-left: 9px;
+  }
+  .sa {
+    margin-left: 9px;
+  }

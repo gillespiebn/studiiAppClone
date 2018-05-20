@@ -1,0 +1,29 @@
+/* 
+MAIN COLORS
+ Pink = #F4AE9F
+ Dark Blue = #22223B
+ Light Blue = #194584
+ Light Grey = #E4E3E5
+ White = #FFFFFF
+
+ ACCENT COLORS
+Lighter Dark Blue (Sign in/join page + Dropdown menu items, list of messages) = #282840
+ */
+.footer {
+    background: #22223B;
+    height: 5em;
+    position: absolute;
+    width:100%;
+}
+
+.footer-text {
+    color: #F4AE9F;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    /* margin-right: -50%; */
+    transform: translate(-50%, -50%);
+    margin: 0;
+    position: absolute;
+}

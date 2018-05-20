@@ -1,0 +1,48 @@
+{
+  "name": "studii-app",
+  "version": "1.0.0",
+  "description": "Studii...With Buddiis",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server.js",
+    "client": "node scripts/start-client.js",
+    "dev": "concurrently \"nodemon server\" \"yarn run client\"",
+    "start": "node server",
+    "build": "node scripts/build.js",
+    "seedschools": "node scripts/seedSchools.js",
+    "seedusers": "node scripts/seedUsers.js",
+    "seedclassnames": "node scripts/seedClassNames.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "installDeps": "yarn && cd client && yarn"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "nodemon": "^1.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gillespiebn/Studii-app.git"
+  },
+  "keywords": [
+    "studii",
+    "buddii"
+  ],
+  "author": "Jordan Shear, Olivia Garrett, Brtittany Gillespie, Mary Hall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gillespiebn/Studii-app/issues"
+  },
+  "homepage": "https://github.com/gillespiebn/Studii-app#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "deps": "^0.1.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "lodash": "^4.17.5",
+    "lodash-object": "^4.17.7",
+    "mongoose": "^5.0.12",
+    "react-facebook-login": "^4.0.1"
+  }
+}

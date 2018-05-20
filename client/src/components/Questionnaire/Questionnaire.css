@@ -1,0 +1,182 @@
+/* 
+MAIN COLORS
+ Pink = #F4AE9F
+ Dark Blue = #22223B
+ Light Blue = #194584
+ Light Grey = #E4E3E5
+ White = #FFFFFF
+
+ ACCENT COLORS
+Lighter Dark Blue (Sign in/join page + Dropdown menu items, list of messages) = #282840
+ */
+
+.ui.segment {
+  background: #E4E3E5;
+  color: #22223B;
+  width: 75%;
+  margin: auto !important;
+}
+.registerTitle {
+  font-family: 'Nunito', sans-serif;
+  color: #22223B;
+  text-align: center;
+  border: none;
+  font-size: 2em;
+  /* top:50%; */
+}
+.ui.grid.classGrid {
+  margin-left: 15%;
+}
+
+.ui.search>.results {
+  overflow: scroll;
+  height:200px;
+}
+
+.ui.button {
+  background: #194584;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+  font-size: 15px;
+  border-radius: 4px;
+  border-style: none;
+  width: 150px;
+  height: 60px;
+  margin-top: 5%;
+}
+
+.ui.button:active, .ui.button:focus, .ui.button:hover {
+  background: #E4E3E5 !important;
+}
+
+.ui.button.toggle.active {
+  background: #FFFFFF !important;
+  color: #22223B !important; 
+}
+
+.ui.button.submit {
+  width:100%;
+}
+.equal.width.fields.preferbtn {
+  margin-top: 1%;
+  margin-left: 22%;
+
+}
+
+.equal.width.fields.timebtnMo {
+  margin-top: 1%;
+  margin-left: 5%;
+
+}
+.equal.width.fields.timebtnAf {
+  margin-top: 1%;
+  margin-left: 5%;
+
+}
+.equal.width.fields.timebtnEv {
+  margin-top: 1%;
+  margin-left: 5%;
+
+}
+.equal.width.fields.timebtnNi {
+  margin-top: 1%;
+  margin-left: 5%;
+
+}
+
+.ui.form>p {
+  color: #22223B;
+  font-family: 'Nunito', sans-serif;
+  font-size:20px;
+  padding:0px 5px 0px 0px;
+}
+
+img {
+  width: 75px;
+  margin: 5px;
+}
+
+.Morning {
+ height: 124px;
+ width: 75px;
+}
+
+.Afternoon {
+  margin-top: -62px;
+  height: 142px;
+  width: 75px;
+}
+
+.Evening{
+  margin-top: -65px;
+  height: 142px;
+  width: 75px;
+}
+
+.Night {
+  margin-top: -65px;
+  height: 124px;
+  width: 75px;
+}
+
+.timeFrameLabels {
+  width: 80px;
+  color: #22223B;
+  font-family: 'Nunito', sans-serif;
+  font-size:20px;
+}
+
+.morLabel{
+  margin-top: 50px;
+  margin-left: -17px;
+}
+
+.aftLabel {
+  margin-top: 20px;
+  margin-right: 7px;
+  margin-left: -24px;
+}
+
+.eveLabel {
+  margin-top: 20px;
+  margin-left: -17px;
+}
+
+.niLabel {
+  margin-top: 15px;
+  margin-left: -17px;
+}
+.dayTitles {
+  width: 75px;
+  color: #22223B;
+  font-family: 'Nunito', sans-serif;
+  font-size:20px;
+  text-align: center;
+  font-weight: bolder;
+}
+.su {
+  margin-left: -13px;
+}
+
+.m {
+  margin-left: 13px;
+}
+.tu {
+  margin-left: 9px;
+} 
+.w {
+  margin-left: 13px;
+}
+
+.th {
+  margin-left: 9px;
+}
+.f {
+  margin-left: 9px;
+}
+.sa {
+  margin-left: 9px;
+}
+.footer {
+  margin-left: -200px;
+}

@@ -1,0 +1,16 @@
+.dark-bg {
+    background-color: #22223B;
+}
+
+#pink-txt {
+    color: #F4AE9F;
+    font-family: 'Baloo Bhaijaan', cursive;
+    font-size: 3em;
+}
+.ui.header {
+    text-align: center;
+    padding-bottom: 10px; 
+    padding: 20px;
+    background-color: #22223B;
+    width: 100%;
+}
